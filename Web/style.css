@@ -1,0 +1,32 @@
+h1{
+  border-bottom:2px solid gray;
+  text-align: center;
+  padding:15px;
+  margin: 0px;
+}
+body{
+  margin:0px;
+}
+
+ol{
+  border-right:2px solid gray;
+  width:80px;
+  margin:0px;
+  padding:20px;
+  padding-top:10px;
+  padding-left: 50px;
+}
+.미정{
+}
+#좌{
+display: grid;
+grid-template-columns: 160px 1fr
+}
+@media(max-width:830px){
+#좌{
+  display:block;
+}
+ol{
+  border-right:none;
+}
+}
